@@ -1,0 +1,51 @@
+# Guia del Laboratorio 03
+
+Este proyecto trata sobre trabajo colaborativo usando Git y GitHub, donde se practico como compartir cambios entre varias personas en un mismo repositorio.
+
+## Que aprendi
+
+En este laboratorio aprendi a trabajar en equipo usando Git, evitando que los cambios de un compañero borren los de otro.
+
+## Pasos para usar este proyecto
+
+- Clonar el repositorio
+- Crear una rama nueva
+- Hacer los cambios necesarios
+- Subir los cambios con push
+
+1. Clonar el repositorio con git clone
+2. Crear una rama con git branch
+3. Hacer commit de los cambios
+4. Subir los cambios con git push
+
+## Mi avance en este trabajo
+
+- [x] Clonar el repositorio
+- [x] Hacer cambios y subirlos
+- [ ] Revisar cambios de un compañero
+
+## Archivos y comandos usados
+
+| Archivo o comando | Que hace |
+|---------|----------|
+| git clone | Descarga el repositorio a mi computadora |
+| git branch | Crea una rama nueva de trabajo |
+| git push | Sube los cambios al repositorio remoto |
+
+## Comando para ver el estado
+
+Para revisar los cambios antes de subirlos uso `git status`.
+
+```bash
+git add .
+git commit -m "Cambios del trabajo colaborativo"
+git push origin main
+```
+
+## Recursos
+
+[Documentacion oficial de Git](https://git-scm.com/doc)
+
+## Captura del proyecto
+
+![Trabajo colaborativo](../img/captura.png)
